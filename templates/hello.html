@@ -5,10 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>Привет, {{ name }}!</h1>
-    <p>Ваш номер: {{ phone }}</p>
-    <input name="phone" value="{{ value }}" />
-    <input name="email" value="{{ email }}" />
+    <h1>Профиль пользователя {{ user.name }}</h1>
+    <p>Ваш номер: {{ user.phone }}</p>
+    <p>Ваша почта: {{ user.email }}</p>
+    <p>Ваш Telegram: {{ user.telegram }}</p>
+
 
 </body>
 </html>
